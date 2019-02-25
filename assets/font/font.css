@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Brandon-Grotesque';
+    src: url('BrandonGrotesque-Bold.eot');
+    src: local('Brandon Grotesque Bold'), local('BrandonGrotesque-Bold'),
+        url('BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BrandonGrotesque-Bold.woff') format('woff'),
+        url('BrandonGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon-Grotesque';
+    src: url('BrandonGrotesque-Regular.eot');
+    src: local('Brandon Grotesque Regular'), local('BrandonGrotesque-Regular'),
+        url('BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BrandonGrotesque-Regular.woff') format('woff'),
+        url('BrandonGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

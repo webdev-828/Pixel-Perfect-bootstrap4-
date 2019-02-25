@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sixty Seconds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/font.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <script src="bootstrap/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body style="font-family:'Brandon-Grotesque'; font-weight: normal; font-style: normal">
+    <header class="head">
+        <div class="container-fluid">
+            <nav class="navbar pt_56 pr_125 pb_36 pl_125">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/img/mark.png" alt="">
+                </a>
+                <div class="navbar-expand-md nav-collapse collapse show form-inline d-flex" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CREATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nowrap">MY VIDEOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nowrap">TEAM VIDEOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">SUPPORT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="accountDropdown" data-toggle="dropdown"
+                                style="font-size:20px; font-weight: normal">
+                                <img src="assets/img/avatar.png" alt="" class="photo">
+                                Andrew Bryce
+                                <img src="assets/img/triangle.png" alt>
+                            </a>
+                            <div class="dropdown-menu custom-dropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user"></i>&nbsp&nbsp&nbsp&nbspMy Profile
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-play"></i>&nbsp&nbsp&nbsp&nbspVideo Setting
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-gift"></i>&nbsp&nbsp&nbsp&nbspTeams
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-plus"></i>&nbsp&nbsp&nbsp&nbspInvite Members
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-sign-out-alt"></i>&nbsp&nbsp&nbsp&nbspLog out
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center mt-5 pt-5">
+                <input class="form-control form-control-lg py-2" type="search" placeholder="   Search template...">
+                <span class="input-group-append">
+                    <button class="btn" type="button">SEARCH</button>
+                </span>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5 pl-2 pr-2" style="padding-top:60px; padding-bottom:150px">
+            <div class="col-md-3 border-right">
+                <div class="float-left">
+                    <ul class="navbar-nav navbar-expand-md">
+                        <li class="nav-item dropdown middle-drop">
+                            <img src="assets/img/triangle.png" class="dropdown-toggle" data-toggle="dropdown">
+                            <!-- <div class="dropdown-menu custom-dropdown">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div> -->
+                            <span class="text-white nowrap" style="padding-left: 90px">JOB ADVERTS</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="float-right">
+                    <ul class="navbar-nav navbar-expand-md">
+                        <li class="nav-item dropdown middle-drop">
+                            <span class="text-white" style="padding-right: 90px">SQUARE</span>
+                            <img src="assets/img/triangle.png" class="dropdown-toggle" data-toggle="dropdown">
+                            <!-- <div class="dropdown-menu custom-dropdown">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div id="tabs bg-light">
+        <div class="container card-box">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="col-md-4 nav-item nav-link nav-pick active" id="nav-home-tab" data-toggle="tab"
+                                href="#nav-pick" role="tab" aria-selected="true">
+                                <div class="d-flex justify-content-center align-items-center align-self-center flex-column"
+                                    style="position: relative">
+                                    <img class="pos-50 pick_show" src="assets/img/1.png" alt="">
+                                    <img class="pos-50 pick_none" src="assets/img/1_1.png" alt="">
+                                    <span class="nav-text">Pick Template</span>
+                                </div>
+                            </a>
+                            <a class="col-md-4 nav-item nav-link nav-input" id="nav-input-tab" data-toggle="tab"
+                                href="#nav-input" role="tab" aria-selected="false">
+                                <div class="d-flex justify-content-center align-items-center flex-column"
+                                    style="position: relative">
+                                    <div class="d-flex justify-content-center align-items-center align-self-center flex-column"
+                                        style="position: relative">
+                                        <img class="pos-50 input_show" src="assets/img/2.png" alt="">
+                                        <img class="pos-50 input_none" src="assets/img/2_1.png" alt="">
+                                        <span class="nav-text">Input Video Informations</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="col-md-4 nav-item nav-link nav-download" id="nav-download-tab" data-toggle="tab"
+                                href="#nav-download" role="tab" aria-selected="false">
+                                <div class="d-flex justify-content-center align-items-center flex-column"
+                                    style="position: relative">
+                                    <div class="d-flex justify-content-center align-items-center align-self-center flex-column"
+                                        style="position: relative">
+                                        <img class="pos-50 download_show" src="assets/img/3.png" alt="">
+                                        <img class="pos-50 download_none" src="assets/img/3_1.png" alt="">
+                                        <span class="nav-text">Download Video</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-pick" role="tabpanel"
+                            aria-labelledby="nav-pick-tab">
+                            <div class="row">
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style1.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style2.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style1.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style2.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style2.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style1.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style2.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card">
+                                        <img src="assets/img/style1.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <img src="assets/img/profile.png" alt="">
+                                            <span class="text-black pl-2">Job Advert</span>
+                                        </div>
+                                        <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <div class="card dotted">
+                                        <div class="content hidden">
+                                            <img src="assets/img/style1.png" alt="" class="card-img-top">
+                                            <div class="card-body">
+                                                <img src="assets/img/profile.png" alt="">
+                                                <span class="text-black pl-2">Job Advert</span>
+                                            </div>
+                                            <div class="card-footer text-green align-middle">CREATE VIDEO</div>
+                                        </div>
+                                        <a href="#" class="add d-flex justify-content-center align-items-center">
+                                            <img src="assets/img/add.png" alt="" style="width: 80%">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-input" role="tabpanel" aria-labelledby="nav-input-tab">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
+                            occaecat ex.
+                        </div>
+                        <div class="tab-pane fade" id="nav-download" role="tabpanel" aria-labelledby="nav-download-tab">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
+                            occaecat ex.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-green align-middle" style="font-size:25px">UPGRADE</div>
+    </div>
+</body>
+
+</html>
